@@ -54,6 +54,8 @@ progress.addEventListener('mousemove', (e)=>mousedown && scrub(e)); //how is thi
 progress.addEventListener('mousedown', ()=>mousedown=true);
 progress.addEventListener('mouseup', ()=>mousedown=false);
 
+//Add fullscreen functionality
+
 
 
 
