@@ -81,8 +81,28 @@
     const cap2 = Object.assign({}, person, {number : 99})
     // console.log(cap2)
     // console.log(person)
+    const cap3 = {...person}
 
 
     // We will hopefully soon see the object ...spread
 
     // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
+
+    const wes = {
+      name: 'arbin',
+      age: 100,
+      social: {
+        twitter: '@arbin',
+        facebook: 'arbin.developer'
+      }
+    }
+    console.clear();
+    console.log(wes)
+    
+    const wes2 = {...wes}
+    
+    wes2[1] = '@wes'
+    console.log('asdf',wes2)
+    console.log('qwww',wes)
+
+    
