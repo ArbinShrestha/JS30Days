@@ -1,5 +1,5 @@
 const pressed = [];
-const secretKey = 'arbin shrestha';
+const secretKey = 'arbin sh restha';
 
 
 window.addEventListener('keyup',(e)=>{
