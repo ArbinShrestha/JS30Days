@@ -8,7 +8,6 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
   words.appendChild(p)
 
   recognition.addEventListener('result', e=>{
-    // console.log(e.results) 
     const transcript = [...e.results]
     .map(result => result[0])
     .map(result => result.transcript)
